@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/user/Desktop/semestrovka/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/user/Desktop/Новая$ папка$ (2)/semester-project-segment-tree/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target semestrovka
 
@@ -49,14 +49,26 @@ cmake_ninja_workdir = C$:/Users/user/Desktop/semestrovka/cmake-build-debug/
 
 build cmake_object_order_depends_target_semestrovka: phony || CMakeFiles/semestrovka.dir
 
-build CMakeFiles/semestrovka.dir/main.cpp.obj: CXX_COMPILER__semestrovka_Debug C$:/Users/user/Desktop/semestrovka/main.cpp || cmake_object_order_depends_target_semestrovka
+build CMakeFiles/semestrovka.dir/main.cpp.obj: CXX_COMPILER__semestrovka_Debug C$:/Users/user/Desktop/Новая$ папка$ (2)/semester-project-segment-tree/main.cpp || cmake_object_order_depends_target_semestrovka
   DEP_FILE = CMakeFiles\semestrovka.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\semestrovka.dir
   OBJECT_FILE_DIR = CMakeFiles\semestrovka.dir
 
-build CMakeFiles/semestrovka.dir/src/segment_tree.cpp.obj: CXX_COMPILER__semestrovka_Debug C$:/Users/user/Desktop/semestrovka/src/segment_tree.cpp || cmake_object_order_depends_target_semestrovka
+build CMakeFiles/semestrovka.dir/src/segment_tree.cpp.obj: CXX_COMPILER__semestrovka_Debug C$:/Users/user/Desktop/Новая$ папка$ (2)/semester-project-segment-tree/src/segment_tree.cpp || cmake_object_order_depends_target_semestrovka
   DEP_FILE = CMakeFiles\semestrovka.dir\src\segment_tree.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\semestrovka.dir
+  OBJECT_FILE_DIR = CMakeFiles\semestrovka.dir\src
+
+build CMakeFiles/semestrovka.dir/src/test_generator.cpp.obj: CXX_COMPILER__semestrovka_Debug C$:/Users/user/Desktop/Новая$ папка$ (2)/semester-project-segment-tree/src/test_generator.cpp || cmake_object_order_depends_target_semestrovka
+  DEP_FILE = CMakeFiles\semestrovka.dir\src\test_generator.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\semestrovka.dir
+  OBJECT_FILE_DIR = CMakeFiles\semestrovka.dir\src
+
+build CMakeFiles/semestrovka.dir/src/tester.cpp.obj: CXX_COMPILER__semestrovka_Debug C$:/Users/user/Desktop/Новая$ папка$ (2)/semester-project-segment-tree/src/tester.cpp || cmake_object_order_depends_target_semestrovka
+  DEP_FILE = CMakeFiles\semestrovka.dir\src\tester.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\semestrovka.dir
   OBJECT_FILE_DIR = CMakeFiles\semestrovka.dir\src
@@ -69,7 +81,7 @@ build CMakeFiles/semestrovka.dir/src/segment_tree.cpp.obj: CXX_COMPILER__semestr
 #############################################
 # Link the executable semestrovka.exe
 
-build semestrovka.exe: CXX_EXECUTABLE_LINKER__semestrovka_Debug CMakeFiles/semestrovka.dir/main.cpp.obj CMakeFiles/semestrovka.dir/src/segment_tree.cpp.obj
+build semestrovka.exe: CXX_EXECUTABLE_LINKER__semestrovka_Debug CMakeFiles/semestrovka.dir/main.cpp.obj CMakeFiles/semestrovka.dir/src/segment_tree.cpp.obj CMakeFiles/semestrovka.dir/src/test_generator.cpp.obj CMakeFiles/semestrovka.dir/src/tester.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\semestrovka.dir
@@ -84,7 +96,7 @@ build semestrovka.exe: CXX_EXECUTABLE_LINKER__semestrovka_Debug CMakeFiles/semes
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\user\Desktop\semestrovka\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\user\Desktop\Новая папка (2)\semester-project-segment-tree\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -95,7 +107,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\user\Desktop\semestrovka\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\user\Desktop\semestrovka -BC:\Users\user\Desktop\semestrovka\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D "C:\Users\user\Desktop\Новая папка (2)\semester-project-segment-tree\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\user\Desktop\Новая папка (2)\semester-project-segment-tree" -B"C:\Users\user\Desktop\Новая папка (2)\semester-project-segment-tree\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -113,7 +125,7 @@ build semestrovka: phony semestrovka.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/user/Desktop/semestrovka/cmake-build-debug
+# Folder: C:/Users/user/Desktop/Новая папка (2)/semester-project-segment-tree/cmake-build-debug
 
 build all: phony semestrovka.exe
 

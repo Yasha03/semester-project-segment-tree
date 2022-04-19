@@ -1,18 +1,16 @@
 #include <iostream>
 #include "src/segment_tree.h"
-#include <vector>
+#include "src/test_generator.h"
+#include "src/tester.h"
 
 using namespace std;
 
-int main() {
-    Segment_tree segtree(7);
+int main(int argc, char* argv[]) {
 
-    vector<int> v = {3, 1, 4, 6, 0, 1, -2};
+    //Test_generator tg;
+    //tg.make_tests(argv[0]);
 
-    for(int i = 0; i < v.size(); i++) {
-        segtree.set(i, v[i]);
-    }
-    cout << segtree.get_sum(0, 7);
+    Tester tester;
+    tester.run_tests(argv[0]);
 
-    return 0;
 }

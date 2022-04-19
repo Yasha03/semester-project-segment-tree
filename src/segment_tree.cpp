@@ -10,19 +10,19 @@ Segment_tree::Segment_tree(int size) {
     size_ = size;
     capacity_ = 1;
     while(capacity_ < size) capacity_ <<= 1;
-    tree_ = new Node[capacity_];
+    tree_ = new Node[capacity_ * 2 - 1];
 }
 
 Segment_tree::~Segment_tree() {
     delete[] tree_;
-    size_ = 0;
+    size_ = capacity_ = 0;
 }
 
 void Segment_tree::set(int pos, int value) {
     if(pos < 0 || size_ <= pos) {
         throw invalid_argument("invalid argument");
     }
-    set(pos, value, 0, 0, size_);
+    set(pos, value, 0, 0, capacity_);
 }
 
 void Segment_tree::set(int pos, int value, int x, int lx, int rx) {
@@ -44,7 +44,7 @@ long long Segment_tree::get_sum(int l, int r) {
     if(l < 0 || size_ < r || l >= r) {
         throw invalid_argument("invalid argument");
     }
-    return get_sum(l, r, 0, 0, size_);
+    return get_sum(l, r, 0, 0, capacity_);
 }
 
 long long Segment_tree::get_sum(int l, int r, int x, int lx, int rx) {
@@ -62,7 +62,7 @@ int Segment_tree::get_min(int l, int r) {
     if(l < 0 || size_ < r || l >= r) {
         throw invalid_argument("invalid argument");
     }
-    return get_min(l, r, 0, 0, size_);
+    return get_min(l, r, 0, 0, capacity_);
 }
 
 int Segment_tree::get_min(int l, int r, int x, int lx, int rx) {
@@ -80,7 +80,7 @@ int Segment_tree::get_max(int l, int r) {
     if(l < 0 || size_ < r || l >= r) {
         throw invalid_argument("invalid argument");
     }
-    return get_max(l, r, 0, 0, size_);
+    return get_max(l, r, 0, 0, capacity_);
 }
 
 int Segment_tree::get_max(int l, int r, int x, int lx, int rx) {
