@@ -1,0 +1,19 @@
+# ninja log v5
+41	602	6720632334019476	CMakeFiles/semestrovka.dir/src/test_generator.cpp.obj	d923506248ee353b
+0	146	6720634087485800	build.ninja	e839b1136d40d2d4
+12	409	6720632332069060	CMakeFiles/semestrovka.dir/src/segment_tree.cpp.obj	4b7fb9b96f1e4cb3
+3	483	6720632332815463	CMakeFiles/semestrovka.dir/main.cpp.obj	d8e15ace1a7e7e10
+603	742	6720632335399780	semestrovka.exe	d4b7f7c77f3b6959
+17	413	6720633231878954	CMakeFiles/semester-project-segment-tree.dir/src/segment_tree.cpp.obj	dc6c062663316579
+21	587	6720632333859439	CMakeFiles/semestrovka.dir/src/tester.cpp.obj	4540757a11e98fb3
+34	525	6720633232989190	CMakeFiles/semester-project-segment-tree.dir/main.cpp.obj	10e7191ead30b78c
+10	591	6720633233659415	CMakeFiles/semester-project-segment-tree.dir/src/tester.cpp.obj	c88312597b6f5a51
+1	601	6720633233759525	CMakeFiles/semester-project-segment-tree.dir/src/test_generator.cpp.obj	7907debfd3a8e019
+602	737	6720633235115194	semester-project-segment-tree.exe	89cc428cf734be6e
+11	385	6720634143346590	CMakeFiles/semestrovka.dir/src/segment_tree.cpp.obj	4b7fb9b96f1e4cb3
+1	436	6720634143846688	CMakeFiles/semestrovka.dir/main.cpp.obj	d8e15ace1a7e7e10
+20	566	6720634145137430	CMakeFiles/semestrovka.dir/src/tester.cpp.obj	4540757a11e98fb3
+37	597	6720634145458145	CMakeFiles/semestrovka.dir/src/test_generator.cpp.obj	d923506248ee353b
+597	731	6720634146797432	semestrovka.exe	d4b7f7c77f3b6959
+2	313	6720634642567199	CMakeFiles/semestrovka.dir/main.cpp.obj	d8e15ace1a7e7e10
+314	440	6720634643843366	semestrovka.exe	d4b7f7c77f3b6959
